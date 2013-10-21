@@ -1,5 +1,5 @@
 //
-//  NRDSecondViewController.h
+//  NRDScheduleViewController.h
 //  NerderyEventApp
 //
 //  Created by Joshua Sullivan on 10/21/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NRDSecondViewController : UIViewController
+@interface NRDScheduleViewController : UIViewController
 
 @end

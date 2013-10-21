@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 The Nerdery. All rights reserved.
 //
 
-#import "NRDSecondViewController.h"
+#import "NRDMapViewController.h"
 
-@interface NRDSecondViewController ()
+@interface NRDMapViewController ()
 
 @end
 
-@implementation NRDSecondViewController
+@implementation NRDMapViewController
 
 - (void)viewDidLoad
 {

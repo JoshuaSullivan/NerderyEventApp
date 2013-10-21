@@ -14,14 +14,18 @@
 		7BC9E6241815B98500DC547C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9E6231815B98500DC547C /* main.m */; };
 		7BC9E6281815B98500DC547C /* NRDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9E6271815B98500DC547C /* NRDAppDelegate.m */; };
 		7BC9E62B1815B98500DC547C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC9E6291815B98500DC547C /* Main.storyboard */; };
-		7BC9E62E1815B98500DC547C /* NRDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9E62D1815B98500DC547C /* NRDFirstViewController.m */; };
-		7BC9E6311815B98500DC547C /* NRDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9E6301815B98500DC547C /* NRDSecondViewController.m */; };
+		7BC9E62E1815B98500DC547C /* NRDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9E62D1815B98500DC547C /* NRDHomeViewController.m */; };
+		7BC9E6311815B98500DC547C /* NRDMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9E6301815B98500DC547C /* NRDMapViewController.m */; };
 		7BC9E6331815B98500DC547C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC9E6321815B98500DC547C /* Images.xcassets */; };
 		7BC9E63A1815B98500DC547C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC9E6391815B98500DC547C /* XCTest.framework */; };
 		7BC9E63B1815B98500DC547C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC9E6171815B98500DC547C /* Foundation.framework */; };
 		7BC9E63C1815B98500DC547C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC9E61B1815B98500DC547C /* UIKit.framework */; };
 		7BC9E6441815B98500DC547C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BC9E6421815B98500DC547C /* InfoPlist.strings */; };
 		7BC9E6461815B98500DC547C /* NerderyEventAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9E6451815B98500DC547C /* NerderyEventAppTests.m */; };
+		7BC9E6581815C66200DC547C /* NRDScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9E6571815C66200DC547C /* NRDScheduleViewController.m */; };
+		7BC9E65B1815C67000DC547C /* NRDTreasureHuntViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9E65A1815C67000DC547C /* NRDTreasureHuntViewController.m */; };
+		7BC9E65E1815C68900DC547C /* NRDTwitterFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9E65D1815C68900DC547C /* NRDTwitterFeedViewController.m */; };
+		7BC9E6611815C6B100DC547C /* NRDSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9E6601815C6B100DC547C /* NRDSettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +50,24 @@
 		7BC9E6261815B98500DC547C /* NRDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRDAppDelegate.h; sourceTree = "<group>"; };
 		7BC9E6271815B98500DC547C /* NRDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRDAppDelegate.m; sourceTree = "<group>"; };
 		7BC9E62A1815B98500DC547C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7BC9E62C1815B98500DC547C /* NRDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRDFirstViewController.h; sourceTree = "<group>"; };
-		7BC9E62D1815B98500DC547C /* NRDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRDFirstViewController.m; sourceTree = "<group>"; };
-		7BC9E62F1815B98500DC547C /* NRDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRDSecondViewController.h; sourceTree = "<group>"; };
-		7BC9E6301815B98500DC547C /* NRDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRDSecondViewController.m; sourceTree = "<group>"; };
+		7BC9E62C1815B98500DC547C /* NRDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRDHomeViewController.h; sourceTree = "<group>"; };
+		7BC9E62D1815B98500DC547C /* NRDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRDHomeViewController.m; sourceTree = "<group>"; };
+		7BC9E62F1815B98500DC547C /* NRDMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRDMapViewController.h; sourceTree = "<group>"; };
+		7BC9E6301815B98500DC547C /* NRDMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRDMapViewController.m; sourceTree = "<group>"; };
 		7BC9E6321815B98500DC547C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7BC9E6381815B98500DC547C /* NerderyEventAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NerderyEventAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC9E6391815B98500DC547C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7BC9E6411815B98500DC547C /* NerderyEventAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NerderyEventAppTests-Info.plist"; sourceTree = "<group>"; };
 		7BC9E6431815B98500DC547C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7BC9E6451815B98500DC547C /* NerderyEventAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerderyEventAppTests.m; sourceTree = "<group>"; };
+		7BC9E6561815C66200DC547C /* NRDScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRDScheduleViewController.h; sourceTree = "<group>"; };
+		7BC9E6571815C66200DC547C /* NRDScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRDScheduleViewController.m; sourceTree = "<group>"; };
+		7BC9E6591815C67000DC547C /* NRDTreasureHuntViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRDTreasureHuntViewController.h; sourceTree = "<group>"; };
+		7BC9E65A1815C67000DC547C /* NRDTreasureHuntViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRDTreasureHuntViewController.m; sourceTree = "<group>"; };
+		7BC9E65C1815C68900DC547C /* NRDTwitterFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRDTwitterFeedViewController.h; sourceTree = "<group>"; };
+		7BC9E65D1815C68900DC547C /* NRDTwitterFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRDTwitterFeedViewController.m; sourceTree = "<group>"; };
+		7BC9E65F1815C6B100DC547C /* NRDSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRDSettingsViewController.h; sourceTree = "<group>"; };
+		7BC9E6601815C6B100DC547C /* NRDSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRDSettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,11 +130,14 @@
 				7BC9E6261815B98500DC547C /* NRDAppDelegate.h */,
 				7BC9E6271815B98500DC547C /* NRDAppDelegate.m */,
 				7BC9E6291815B98500DC547C /* Main.storyboard */,
-				7BC9E62C1815B98500DC547C /* NRDFirstViewController.h */,
-				7BC9E62D1815B98500DC547C /* NRDFirstViewController.m */,
-				7BC9E62F1815B98500DC547C /* NRDSecondViewController.h */,
-				7BC9E6301815B98500DC547C /* NRDSecondViewController.m */,
 				7BC9E6321815B98500DC547C /* Images.xcassets */,
+				7BC9E64F1815C5A600DC547C /* Categories */,
+				7BC9E6501815C5A600DC547C /* Controllers */,
+				7BC9E6511815C5A600DC547C /* Models */,
+				7BC9E6551815C5B900DC547C /* Resources */,
+				7BC9E6521815C5A600DC547C /* Vendor */,
+				7BC9E6531815C5A600DC547C /* ViewControllers */,
+				7BC9E6541815C5A600DC547C /* Views */,
 				7BC9E61E1815B98500DC547C /* Supporting Files */,
 			);
 			path = NerderyEventApp;
@@ -155,6 +170,115 @@
 				7BC9E6421815B98500DC547C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BC9E64F1815C5A600DC547C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		7BC9E6501815C5A600DC547C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7BC9E6511815C5A600DC547C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7BC9E6521815C5A600DC547C /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		7BC9E6531815C5A600DC547C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9E6621815C6F100DC547C /* Home */,
+				7BC9E6631815C6F100DC547C /* Map */,
+				7BC9E6641815C6F100DC547C /* Schedule */,
+				7BC9E6651815C6F100DC547C /* Settings */,
+				7BC9E6661815C6F100DC547C /* TreasureHunt */,
+				7BC9E6671815C6F100DC547C /* Twitter */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7BC9E6541815C5A600DC547C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BC9E6551815C5B900DC547C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7BC9E6621815C6F100DC547C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9E62C1815B98500DC547C /* NRDHomeViewController.h */,
+				7BC9E62D1815B98500DC547C /* NRDHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7BC9E6631815C6F100DC547C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9E62F1815B98500DC547C /* NRDMapViewController.h */,
+				7BC9E6301815B98500DC547C /* NRDMapViewController.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		7BC9E6641815C6F100DC547C /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9E6561815C66200DC547C /* NRDScheduleViewController.h */,
+				7BC9E6571815C66200DC547C /* NRDScheduleViewController.m */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		7BC9E6651815C6F100DC547C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9E65F1815C6B100DC547C /* NRDSettingsViewController.h */,
+				7BC9E6601815C6B100DC547C /* NRDSettingsViewController.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7BC9E6661815C6F100DC547C /* TreasureHunt */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9E6591815C67000DC547C /* NRDTreasureHuntViewController.h */,
+				7BC9E65A1815C67000DC547C /* NRDTreasureHuntViewController.m */,
+			);
+			path = TreasureHunt;
+			sourceTree = "<group>";
+		};
+		7BC9E6671815C6F100DC547C /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9E65C1815C68900DC547C /* NRDTwitterFeedViewController.h */,
+				7BC9E65D1815C68900DC547C /* NRDTwitterFeedViewController.m */,
+			);
+			path = Twitter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,10 +379,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BC9E62E1815B98500DC547C /* NRDFirstViewController.m in Sources */,
+				7BC9E62E1815B98500DC547C /* NRDHomeViewController.m in Sources */,
+				7BC9E6581815C66200DC547C /* NRDScheduleViewController.m in Sources */,
+				7BC9E6611815C6B100DC547C /* NRDSettingsViewController.m in Sources */,
+				7BC9E65E1815C68900DC547C /* NRDTwitterFeedViewController.m in Sources */,
 				7BC9E6241815B98500DC547C /* main.m in Sources */,
+				7BC9E65B1815C67000DC547C /* NRDTreasureHuntViewController.m in Sources */,
 				7BC9E6281815B98500DC547C /* NRDAppDelegate.m in Sources */,
-				7BC9E6311815B98500DC547C /* NRDSecondViewController.m in Sources */,
+				7BC9E6311815B98500DC547C /* NRDMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +595,7 @@
 				7BC9E64B1815B98500DC547C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BC9E64C1815B98500DC547C /* Build configuration list for PBXNativeTarget "NerderyEventAppTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +604,7 @@
 				7BC9E64E1815B98500DC547C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

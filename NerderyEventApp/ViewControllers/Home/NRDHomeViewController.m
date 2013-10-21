@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 The Nerdery. All rights reserved.
 //
 
-#import "NRDFirstViewController.h"
+#import "NRDHomeViewController.h"
 
-@interface NRDFirstViewController ()
+@interface NRDHomeViewController ()
 
 @end
 
-@implementation NRDFirstViewController
+@implementation NRDHomeViewController
 
 - (void)viewDidLoad
 {
